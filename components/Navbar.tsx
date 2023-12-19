@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="text-white flexBetween max-container padding-container relative z-30 py-5 flex-row">
+    <nav className="text-white flexBetween max-container padding-container relative z-30 pt-5 flex-row">
       <div
         onClick={() => (window.location.href = "/")}
         style={{ cursor: "pointer" }}
