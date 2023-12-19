@@ -16,7 +16,7 @@ const Features = () => {
             />
             <h2 className='text-softcyan-100 bold-40 lg:bold-64'>Benefits of Joining Us</h2>
           </div>
-          <ul className='text-white mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20'>
+          <ul className='text-white mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-24'>
             {FEATURES.map((feature)=>(
               <FeatureItem
                  title ={feature.title}
@@ -51,7 +51,7 @@ const FeatureItem = ({title, icon, description}: FeatureItem) => {
       <h2 className='bold-20 lg:bold-32 mt-5 capitalize'>
           {title}
       </h2>
-      <p className='regular-16 mt-5 text-whitelg:mt-[30px] lg:bg-none'>
+      <p className='regular-16 lg:regular-18 xl:regular-20 min-w-[280px] mt-5 text-white lg:mt-[30px] lg:bg-none'>
         {description}
       </p>
     </li>

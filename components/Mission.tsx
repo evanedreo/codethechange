@@ -11,12 +11,15 @@ const Mission = () => {
           </h2>
           <div className="flex-col max-container relative w-full">
             <div className="flex lg:flex-row flex-col w-full gap-10">
-              <p className="m-auto regular-16 text-white xl:max-w-[820px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                
+              <p className="m-auto regular-16 lg:regular-18 xl:regular-20 text-white xl:max-w-[820px]">
+                Code the Change aims to engage and unite students who are eager
+                to apply their technical skills for the betterment of the
+                community. By facilitating connections between these students
+                and non-profit organizations in need of technical assistance,
+                the club aims to integrate social change into the heart of
+                computer science culture, encouraging students to use their
+                talents not just for professional advancement but also for
+                meaningful societal impact.
               </p>
               <Image
                 src="/workshop.png"
@@ -28,11 +31,14 @@ const Mission = () => {
           </div>
           <div className="flex-col max-container relative w-full">
             <div className="flex lg:flex-row-reverse flex-col w-full gap-10">
-              <p className="m-auto regular-16 text-white xl:max-w-[820px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor               
+              <p className="m-auto regular-16 lg:regular-18 xl:regular-20 text-white xl:max-w-[820px]">
+                Code the Change is dedicated to empowering students with an
+                interest in computer science and coding. To achieve this, Code
+                the Change conducts various bootcamps and provides hands-on
+                mentorship from experienced project leaders, with the dual aim
+                of enhancing the technical skills of its members and fostering a
+                learning environment for students eager to delve into computer
+                science.
               </p>
               <Image
                 src="/discussion.png"

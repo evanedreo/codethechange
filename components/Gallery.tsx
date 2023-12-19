@@ -42,7 +42,9 @@ const Photos = ({
               />
             ))}
           </span>
-          <p className="text-xs md:medium-14 lg:bold-20 text-white">{peopleJoined}</p>
+          <p className="text-xs md:medium-14 lg:bold-20 text-white">
+            {peopleJoined}
+          </p>
         </div>
       </div>
     </div>
@@ -71,10 +73,11 @@ const Gallery = () => {
           <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
             <strong>New to Coding</strong>? <br></br>Not a CS Student?
           </h2>
-          <p className="regular-14 xl:regular-16 mt-5 text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis
+          <p className="regular-14 xl:regular-20 mt-5 text-white">
+            Rest assured, prior experience and skills are not prerequisites.
+            Your passion and commitment are what matter most. By joining us on
+            this project, you'll be guided by our project
+            leaders. We will help you develop and enhance your knowledge, skills, and experience throughout this exciting journey.
           </p>
           <Image
             src="/quote.svg"

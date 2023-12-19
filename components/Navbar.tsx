@@ -63,8 +63,8 @@ const Navbar = () => {
       </ul>
       {/* Login button for larger devices */}
       <div className="lg:flexCenter hidden gap-3">
-        <Button  type="button" title="Students" variant="btn_blue" url="/" />
-        <Button  type="button" title="Non-Profits" variant="btn_white" url="/" />
+        <Button  type="button" title="Students" variant="btn_blue" url="https://forms.gle/dm8e1pDQECfDJ9zXA" />
+        <Button  type="button" title="Non-Profits" variant="btn_white" url="https://forms.gle/ZH386SbYDFZskVcE9" />
       </div>
     </nav>
   );
