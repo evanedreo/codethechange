@@ -26,14 +26,14 @@ const Projects = () => {
                   height={250}
                 />
               </div>
-              <div className="items-center flex justify-center gap-5 md:gap-20 lg:gap-2 xl:gap-20 p-0 flex-row">
+              <div className="items-center flex justify-center gap-2 md:gap-20 lg:gap-2 xl:gap-20 p-0 flex-row">
                 <TeamName>
                   {TEAMS.executives.map((link) => (
                     <div key={link.label}>
-                      <p className="text-softcyan-200 regular-14 md:bold-18 xl:bold-20 whitespace-nowrap">
+                      <p className="text-softcyan-200 regular-16 lg:regular-18 xl:regular-20 md:bold-18 xl:bold-20 whitespace-nowrap">
                         {link.label}:
                       </p>
-                      <p className="text-white text-xs md:medium-16  xl:regular-20 xl:my-1 whitespace-nowrap">
+                      <p className="text-white text-xs regular-16 lg:regular-18 xl:regular-20 xl:my-1 whitespace-nowrap">
                         {link.value}
                       </p>
                     </div>
@@ -42,10 +42,10 @@ const Projects = () => {
                 <TeamName>
                   {TEAMS.projectLeader.map((link) => (
                     <div key={link.label}>
-                      <p className="text-softcyan-200 regular-14 md:bold-18 xl:bold-20 whitespace-nowrap">
+                      <p className="text-softcyan-200 regular-16 lg:regular-18 xl:regular-20 md:bold-18 xl:bold-20 whitespace-nowrap">
                         {link.label}:
                       </p>
-                      <p className="text-white text-xs md:regular-16 xl:regular-20 xl:my-1 whitespace-nowrap">
+                      <p className="text-white text-xs regular-16 lg:regular-18 xl:regular-20 xl:my-1 whitespace-nowrap">
                         {link.value}
                       </p>
                     </div>
@@ -60,7 +60,7 @@ const Projects = () => {
                 <h4 className="text-center text-softcyan-100 mt-0 bold-20 lg:bold-32 lg:mb-8">
                   Team 1
                 </h4>
-                <p className="regular-12 md:regular-16 xl:regular-20 text-white lg:max-w-[620px] xl:max-w-[820px]">
+                <p className="regular-16 lg:regular-18 xl:regular-20 text-white lg:max-w-[620px] xl:max-w-[820px]">
                   Under the supervision of the President and Vice President,
                   project leaders at Code the Change provided direct, hands-on
                   guidance to members in developing a website for The Little
@@ -72,7 +72,7 @@ const Projects = () => {
                   teachers.
                 </p>
               </div>
-              <div className="mx-auto md:max-w-[400px] flex-col space-y-4 ">
+              <div className="m-auto md:max-w-[400px] flex-col space-y-4 ">
                 <Image
                   src="/team1.png"
                   alt="team 1"
@@ -96,7 +96,7 @@ const Projects = () => {
                 <h4 className="text-center text-softcyan-100 mt-0 bold-20 lg:bold-32 lg:mb-8">
                   Team 2
                 </h4>
-                <p className="regular-12 md:regular-16 xl:regular-20 text-white lg:max-w-[620px] xl:max-w-[820px]">
+                <p className="regular-16 lg:regular-18 xl:regular-20 text-white lg:max-w-[620px] xl:max-w-[820px]">
                   Under the supervision of the President and Vice President,
                   project leaders at our organization provided hands-on guidance
                   to members in developing a website for Social Project Bali, a
@@ -109,7 +109,7 @@ const Projects = () => {
                   areas.
                 </p>
               </div>
-              <div className="mx-auto md:max-w-[400px] flex-col space-y-4 ">
+              <div className="m-auto md:max-w-[400px] flex-col space-y-4 ">
                 <Image
                   src="/team2.png"
                   alt="team 2"
@@ -133,7 +133,7 @@ const Projects = () => {
                 <h4 className="text-center text-softcyan-100 mt-0 bold-20 lg:bold-32 lg:mb-8">
                   Team 3
                 </h4>
-                <p className="regular-12 md:regular-16 xl:regular-20 text-white lg:max-w-[620px] xl:max-w-[820px]">
+                <p className="regular-16 lg:regular-18 xl:regular-20 text-white lg:max-w-[620px] xl:max-w-[820px]">
                   Under the supervision of the President and Vice President,
                   project leaders at our organization provided hands-on guidance
                   to members in developing a website for Bercerita, an
@@ -145,7 +145,7 @@ const Projects = () => {
                   broadens horizons.
                 </p>
               </div>
-              <div className="flex-col space-y-4 mx-auto md:max-w-[400px]">
+              <div className="flex-col space-y-4 m-auto md:max-w-[400px]">
                 <Image
                   src="/team3.png"
                   alt="team 3"
