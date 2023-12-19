@@ -67,6 +67,9 @@ body {
   .regular-32 {
     @apply text-[32px] font-[400];
   }
+  .regular-28 {
+    @apply text-[28px] font-[400];
+  }
 
   .regular-24 {
     @apply text-[24px] font-[400];
@@ -87,9 +90,24 @@ body {
   .regular-14 {
     @apply text-[14px] font-[400];
   }
+  .regular-12 {
+    @apply text-[12px] font-[400];
+  }
 
   .medium-14 {
     @apply text-[14px] font-[600];
+  }
+  .medium-12 {
+    @apply text-[12px] font-[600];
+  }
+  .medium-10 {
+    @apply text-[10px] font-[600];
+  }
+  .medium-28 {
+    @apply text-[28px] font-[600];
+  }
+  .medium-16 {
+    @apply text-[16px] font-[600];
   }
 
   .bold-88 {

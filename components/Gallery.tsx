@@ -16,24 +16,24 @@ const Photos = ({
 }: PhotosProps) => {
   return (
     <div
-      className={`h-full w-full min-w-[1100px] ${backgroundImage} 
-    bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}
+      className={`min-h-[220px] md:min-h-[350px] lg:min-h-[590px] w-full min-w-[300px] md:min-w-[600px] lg:min-w-[1000px] ${backgroundImage} 
+    bg-cover bg-no-repeat rounded-2xl lg:rounded-r-5xl 2xl:rounded-5xl`}
     >
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
         <div className="flexCenter gap-4">
-          <div className="rounded-full bg-cyan-700 p-4">
+          <div className="max-w-[30px] md:max-w-[50px] md:p-4 lg:w-full lg:p-4 rounded-full bg-cyan-700 p-2">
             <Image src="/folded-map.svg" alt="map" width={28} height={28} />
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="text-xs md:text-md lg:text-lg flex flex-col">
             <h4 className="text-white font-bold">{title}</h4>
-            <p className="regular-14 text-white">{subtitle}</p>
+            <p className=" md:regular-10 text-white">{subtitle}</p>
           </div>
         </div>
-        <div className="flexCenter gap-6">
+        <div className="mt-1 md:mt-2 lg:mt-6 flexCenter gap-6">
           <span className="flex -space-x-4 overflow-hidden">
             {PEOPLE_URL.map((url) => (
               <Image
-                className="inline-block h-10 w-10 rounded-full"
+                className="inline-block h-5 w-5 md:h-6 md:w-6 lg:h-8 lg:w-8 rounded-full"
                 src={url}
                 key={url}
                 alt="person"
@@ -42,7 +42,7 @@ const Photos = ({
               />
             ))}
           </span>
-          <p className="bold-16 text-white md:bold-20">{peopleJoined}</p>
+          <p className="text-xs md:medium-14 lg:bold-20 text-white">{peopleJoined}</p>
         </div>
       </div>
     </div>
@@ -51,8 +51,8 @@ const Photos = ({
 
 const Gallery = () => {
   return (
-    <section className=" 2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
-      <div className="hide-scrollbar flex h-[500px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[600px] xl:h-[640px]">
+    <section className=" -mt-[100px] ml-1 2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
+      <div className="hide-scrollbar flex h-[300px] md:h-[500px] lg:h-[600px] xl:h-[640px] w-full items-start justify-start gap-3 overflow-x-auto">
         <Photos
           backgroundImage="bg-bg-img-1"
           title="Code the Change DVC"
@@ -66,10 +66,16 @@ const Gallery = () => {
           peopleJoined="50+ Joined"
         />
       </div>
-      <div className="flexEnd mt-10 px-6 lg:-mt-20 lg:mr-6">
+      <div className="xl:-mt-[150px] lg:-mt-20 -mt-10 md:-mt-20 flexEnd px-6 lg:mr-6">
         <div className="bg-vividblue-700 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
-          <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white"><strong>New to Coding</strong>? <br></br>Not a CS Student?</h2>
-          <p className="regular-14 xl:regular-16 mt-5 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+          <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
+            <strong>New to Coding</strong>? <br></br>Not a CS Student?
+          </h2>
+          <p className="regular-14 xl:regular-16 mt-5 text-white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis
+          </p>
           <Image
             src="/quote.svg"
             alt="quote"

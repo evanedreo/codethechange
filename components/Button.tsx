@@ -14,7 +14,8 @@ type ButtonProps = {
 const Button = ({ url, type, title, icon, variant, full}: ButtonProps) => {
   const handleClick = () => {
     if (url) {
-      window.location.href = url; // Redirect to the URL
+      // window.location.href = url; // Redirect to the URL
+      window.open(url, '_blank') //to open a new tab
     }
   };
   return (

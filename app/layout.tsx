@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/img/favicon.png" sizes="any" />
+        <link rel="icon" href="/img/codethechangelogo.png" sizes="any" />
       </head>
       <body>
         <Navbar />

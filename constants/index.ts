@@ -2,7 +2,7 @@
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
   { href: '#about_us', key: 'about_us', label: 'About Us' },
-  { href: '/', key: 'projects', label: 'What Have We Done' },
+  { href: '#projects', key: 'projects', label: 'What Have We Done' },
 ];
 
 // Gallery SECTION
@@ -87,4 +87,28 @@ export const SOCIALS = {
     }
   ]
   
+};
+
+export const TEAMS = {
+  executives: [
+    { label: 'President ', value: 'Evan Honggo Widjojo' },
+    { label: 'VP of Projects', value: 'Evan Honggo Widjojo' },
+    { label: 'VP of Operations', value: 'Evan Honggo Widjojo' },
+    { label: 'VP of Finance', value: 'Evan Honggo Widjojo' },
+    { label: 'VP of Communication', value: 'Evan Honggo Widjojo' },
+    { label: 'VP of Design', value: 'Evan Honggo Widjojo' },
+    { label: 'Marketing Designer', value: 'Evan Honggo Widjojo' },
+    { label: 'Marketing Designer', value: 'Evan Honggo Widjojo' },
+    { label: 'Event Organizer', value: 'Evan Honggo Widjojo' },
+    { label: 'ICC Representative', value: 'Evan Honggo Widjojo' },
+  ],
+  projectLeader:[
+    {label:'Project Leader', value:'Nicholas Nurwinata'},
+    {label:'Project Leader', value:'Nicholas Nurwinata'},
+    {label:'Project Leader', value:'Nicholas Nurwinata'},
+    {label:'Project Leader', value:'Nicholas Nurwinata'},
+    {label:'Project Leader', value:'Nicholas Nurwinata'},
+    {label:'Project Leader', value:'Nicholas Nurwinata'},
+
+  ]
 };
