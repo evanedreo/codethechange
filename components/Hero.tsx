@@ -15,7 +15,7 @@ const Hero = () => {
           className="absolute left-[-5px] top-[-20px] w-10 lg:w-[50px]"
         />
         <h1 className="bold-52 lg:bold-88 text-green-100">Code the Change</h1>
-        <p className="regular-16 lg:leading-8 mt-11 tracking-wide text-white">
+        <p className="regular-16 lg:regular-18 xl:regular-20 lg:leading-8 mt-11 tracking-wide text-white">
           Code the Change, as the name suggests, is a club where students can
           use their coding and technical skills to drive social change. The club
           hopes to gather enthusiastic students willing to share their talents
@@ -30,8 +30,18 @@ const Hero = () => {
           like-minded students who share similar interests and goals..
         </p>
         <div className="flex flex-col w-full gap-3 sm:flex-row mt-10">
-          <Button type="button" title="Students" variant="btn_blue" url="https://forms.gle/dm8e1pDQECfDJ9zXA"/>
-          <Button type="button" title="Non-Profits" variant="btn_white" url="https://forms.gle/ZH386SbYDFZskVcE9" />
+          <Button
+            type="button"
+            title="Students"
+            variant="btn_blue"
+            url="https://forms.gle/dm8e1pDQECfDJ9zXA"
+          />
+          <Button
+            type="button"
+            title="Non-Profits"
+            variant="btn_white"
+            url="https://forms.gle/ZH386SbYDFZskVcE9"
+          />
         </div>
       </div>
     </section>
