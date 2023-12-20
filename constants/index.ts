@@ -25,7 +25,7 @@ export const FEATURES = [
     title: "Experience",
     icon: "/experience.png",
     description:
-      "You have the chance to apply as officers, providing them with invaluable leadership experience for their personal and professional growth. Furthermore, direct mentorship from project leaders enhances your technical skills, particularly in website development.",
+      "You have the chance to apply as officers, providing them with invaluable leadership experience for your personal and professional growth. Furthermore, direct mentorship from project leaders enhances your technical skills, particularly in website development.",
   },
   {
     title: "Connections",
@@ -37,7 +37,7 @@ export const FEATURES = [
     title: "Certificate",
     icon: "/certificate.png",
     description:
-      "You receive certificates recognizing their contributions to projects for non-profit organizations. This certificate is not only a token of appreciation but also serves as a tangible record of their involvement and skills, which can be beneficial for future academic or career opportunities.",
+      "You receive certificates recognizing your contributions to projects for non-profit organizations. This certificate is not only a token of appreciation but also serves as a tangible record of your involvement and skills, which can be beneficial for future academic or career opportunities.",
   },
 ];
 

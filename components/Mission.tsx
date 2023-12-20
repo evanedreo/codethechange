@@ -34,7 +34,7 @@ const Mission = () => {
               <p className="m-auto regular-16 lg:regular-18 xl:regular-20 text-white xl:max-w-[820px]">
                 Code the Change is dedicated to empowering students with an
                 interest in computer science and coding. To achieve this, Code
-                the Change conducts various bootcamps and provides hands-on
+                the Change conducts various workshops and provides hands-on
                 mentorship from experienced project leaders, with the dual aim
                 of enhancing the technical skills of its members and fostering a
                 learning environment for students eager to delve into computer
