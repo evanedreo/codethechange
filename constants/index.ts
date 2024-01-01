@@ -25,7 +25,7 @@ export const FEATURES = [
     title: "Experience",
     icon: "/experience.png",
     description:
-      "You have the chance to apply as officers, providing them with invaluable leadership experience for your personal and professional growth. Furthermore, direct mentorship from project leaders enhances your technical skills, particularly in website development.",
+      "You have the chance to apply as officers, providing you with invaluable leadership experience for your personal and professional growth. Furthermore, direct mentorship from project leaders enhances your technical skills, particularly in website development.",
   },
   {
     title: "Connections",
