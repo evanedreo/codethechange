@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Features = () => {
   return (
-    <section className='flex-col flexCenter overflow-hidden py-24'>
+    <section className='flex-col flexCenter overflow-hidden pb-24'>
       <div className=' flex max-container padding-container relative w-full justify-center'>
         <div className='z-20 flex w-full flex-col lg:w-[60%]'>
           <div className='relative'>
