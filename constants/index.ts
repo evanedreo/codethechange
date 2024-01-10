@@ -130,3 +130,28 @@ export const TEAMS = {
     { label: "Project Leader", value: "Cameron White" },
   ],
 };
+
+//  project descriptions
+export const PROJECT_DESCRIPTIONS = {
+  team1: {
+    title: "Team 1",
+    description:
+      "Under the supervision of the President and Vice President, project leaders at Code the Change provided direct, hands-on guidance to members in developing a website for The Little House, an initiative that operates five learning centers across Jakarta. Catering to over 200 underprivileged Indonesian children, The Little House provides free education to bridge the educational socioeconomic divide, with programs spanning grades 1 to 12 and supported by over 25 full-time teachers.",
+    imageUrl: "/team1.png",
+    websiteUrl: "https://thelittlehouse1jkt.netlify.app/",
+  },
+  team2: {
+    title: "Team 2",
+    description:
+      "Under the supervision of the President and Vice President, project leaders at our organization provided hands-on guidance to members in developing a website for Social Project Bali, a non-profit organization founded on 19 September 2020 in Bali, Indonesia. Focused on education, environmental conservation, and social humanity, the organization engages in educating rural children, cleaning and tree planting for environmental care, and making donations to underprivileged people, aiming to foster community of collaboration and impact in these areas.",
+    imageUrl: "/team2.png",
+    websiteUrl: "https://socialprojectbali.netlify.app/",
+  },
+  team3: {
+    title: "Team 3",
+    description:
+      "Under the supervision of the President and Vice President, project leaders at our organization provided hands-on guidance to members in developing a website for Bercerita, an initiative aimed at raising the global competitiveness of Indonesian children by enhancing their self-esteem and cultural pride. Bercerita bridges high school volunteers and rural elementary students through English language education, with a curriculum that promotes cultural understanding and broadens horizons.",
+    imageUrl: "/team3.png",
+    websiteUrl: "https://bercerita.netlify.app/",
+  },
+};

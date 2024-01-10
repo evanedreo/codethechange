@@ -1,6 +1,6 @@
-import { TEAMS } from "@/constants";
 import Image from "next/image";
 import Button from "./Button";
+import { TEAMS, PROJECT_DESCRIPTIONS } from "@/constants";
 
 const Projects = () => {
   return (
@@ -26,6 +26,7 @@ const Projects = () => {
                   height={250}
                 />
               </div>
+              {/* Team Description */}
               <div className="items-center flex justify-center gap-2 md:gap-20 lg:gap-2 xl:gap-20 p-0 flex-row">
                 <TeamName>
                   {TEAMS.executives.map((link) => (
@@ -54,101 +55,21 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="flex-col max-container relative w-full">
-            <div className="border lg:border-hidden rounded-xl border-vividblue-300 p-8 flex lg:flex-row flex-col w-full gap-10">
+          {/* Project Descriptions */}
+          {Object.values(PROJECT_DESCRIPTIONS).map((project, index) => (
+            <div key={index} className="border lg:border-hidden rounded-xl border-vividblue-300 p-8 flex lg:flex-row flex-col w-full gap-10">
               <div className="m-auto items-center flex-col">
                 <h4 className="text-center text-softcyan-100 mt-0 bold-20 lg:bold-32 lg:mb-8">
-                  Team 1
+                  {project.title}
                 </h4>
                 <p className="regular-16 lg:regular-18 xl:regular-20 text-white lg:max-w-[620px] xl:max-w-[820px]">
-                  Under the supervision of the President and Vice President,
-                  project leaders at Code the Change provided direct, hands-on
-                  guidance to members in developing a website for The Little
-                  House, an initiative that operates five learning centers
-                  across Jakarta. Catering to over 200 underprivileged
-                  Indonesian children, The Little House provides free education
-                  to bridge the educational socioeconomic divide, with programs
-                  spanning grades 1 to 12 and supported by over 25 full-time
-                  teachers.
-                </p>
-              </div>
-              <div className="m-auto md:max-w-[400px] flex-col space-y-4 ">
-                <Image
-                  src="/team1.png"
-                  alt="team 1"
-                  width={400}
-                  height={300}
-                  style={{ borderRadius: "8%" }}
-                />
-                <Button
-                  type="button"
-                  title="Website"
-                  variant="btn_blue"
-                  url="https://thelittlehouse1jkt.netlify.app/"
-                  full
-                />
-              </div>
-            </div>
-          </div>
-          <div className="border lg:border-hidden rounded-xl border-vividblue-300 p-8  flex-col max-container relative w-full">
-            <div className="flex lg:flex-row flex-col w-full gap-10">
-              <div className="m-auto items-center flex-col">
-                <h4 className="text-center text-softcyan-100 mt-0 bold-20 lg:bold-32 lg:mb-8">
-                  Team 2
-                </h4>
-                <p className="regular-16 lg:regular-18 xl:regular-20 text-white lg:max-w-[620px] xl:max-w-[820px]">
-                  Under the supervision of the President and Vice President,
-                  project leaders at our organization provided hands-on guidance
-                  to members in developing a website for Social Project Bali, a
-                  non-profit organization founded on 19 September 2020 in Bali,
-                  Indonesia. Focused on education, environmental conservation,
-                  and social humanity, the organization engages in educating
-                  rural children, cleaning and tree planting for environmental
-                  care, and making donations to underprivileged people, aiming
-                  to foster a community of collaboration and impact in these
-                  areas.
-                </p>
-              </div>
-              <div className="m-auto md:max-w-[400px] flex-col space-y-4 ">
-                <Image
-                  src="/team2.png"
-                  alt="team 2"
-                  width={400}
-                  height={300}
-                  style={{ borderRadius: "8%" }}
-                />
-                <Button
-                  type="button"
-                  title="Website"
-                  variant="btn_blue"
-                  url="https://socialprojectbali.netlify.app/"
-                  full
-                />
-              </div>
-            </div>
-          </div>
-          <div className="border rounded-xl lg:border-hidden border-vividblue-300 p-8 md:justify-center flex-col max-container relative w-full">
-            <div className="flex lg:flex-row flex-col w-full gap-10">
-              <div className="m-auto items-center flex-col">
-                <h4 className="text-center text-softcyan-100 mt-0 bold-20 lg:bold-32 lg:mb-8">
-                  Team 3
-                </h4>
-                <p className="regular-16 lg:regular-18 xl:regular-20 text-white lg:max-w-[620px] xl:max-w-[820px]">
-                  Under the supervision of the President and Vice President,
-                  project leaders at our organization provided hands-on guidance
-                  to members in developing a website for Bercerita, an
-                  initiative aimed at raising the global competitiveness of
-                  Indonesian children by enhancing their self-esteem and
-                  cultural pride. Bercerita bridges high school volunteers and
-                  rural elementary students through English language education,
-                  with a curriculum that promotes cultural understanding and
-                  broadens horizons.
+                  {project.description}
                 </p>
               </div>
               <div className="flex-col space-y-4 m-auto md:max-w-[400px]">
                 <Image
-                  src="/team3.png"
-                  alt="team 3"
+                  src={project.imageUrl}
+                  alt={project.title}
                   width={400}
                   height={300}
                   style={{ borderRadius: "8%" }}
@@ -157,12 +78,12 @@ const Projects = () => {
                   type="button"
                   title="Website"
                   variant="btn_blue"
-                  url="https://bercerita.netlify.app/"
+                  url={project.websiteUrl}
                   full
                 />
               </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
